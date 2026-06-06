@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(248, 238, 224);
+}
+.App{
+    padding: 7px 80px;
+    
+}
+.ListeProduits{
+    background-color: #e7ecef;
+    border-radius: 15px;
+    padding: 0 10px 10px;
+    padding-top: 3px;
+    
+}
+.Produits {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+    padding-top: 10px;
+    
+}
+.Produit{
+    width: 100%;
+    padding: 0 3%;
+    padding-bottom: 15px;
+    margin: 0 11px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.Panier{
+    width: 98%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 5px auto;
+    
+}
+.Contenu-Panier{
+    padding: 2px 30px;
+}
+
+h1,h3,h4,p,button{
+    font-family: "Science Gothic", sans-serif; 
+}
+h3{
+    font-size: 24px;
+    color: rgb(0, 82, 82);
+}
+h4{
+    font-size: large;
+    color: rgb(83, 83, 83);
+}
+h1{
+    color:rgb(0, 82, 82);
+}
+p{
+    color: rgb(96, 92, 92);
+    font-weight: bold;
+    font-size: 15px;
+}
+button{
+    height: 30px;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px beige solid;
+    background-color: #0466c8;
+    color: aliceblue;
+    cursor: pointer;
+}
+.button-Supprimer{
+    background-color: #df1c29;
+    width: 100px;
+    margin-left: 35px;
+}
+.button-Ajouter{
+    width: 200px;
+}
+.button-plus , .button-moin{
+    width: 30px;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 12px;
+    margin-left:  80px;
+    margin-bottom: 8px;
+    height: 20px;
+    width: 70%;
+    border-radius: 8px;
+    background-color: rgb(239, 237, 237);
+}
+
+.Actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quantite{
+    background-color: rgb(231, 218, 203);
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+span,.T-article{
+    color: darkgoldenrod;
+}
+.message{
+    font-size: 25px;
+    margin: 3.1% auto;
+    padding-left: 30%;
+}

@@ -1,0 +1,61 @@
+.VolsListe{
+    max-width: 1100px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.Titreliste{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 95%;
+    background-color: rgb(149, 214, 255);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.Rechercher{
+    display: inline-flex;
+}
+.Items{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    margin: 20px 20px;
+    padding-bottom:10px;
+}
+.Item{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.image-item{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+
+}
+.Villes{
+    margin: 5px 0; 
+    font-weight: bold;
+}
+.btn-recherche{
+    background-color: orange;
+    border: 'none'; 
+    padding: '5px 10px'; 
+    cursor: 'pointer';
+    width: 150px;
+    height: 38px;
+    border-radius: 3px;
+}
+.btn-reserver{
+    background-color: orange;
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer;
+    border-radius: 3px;
+}

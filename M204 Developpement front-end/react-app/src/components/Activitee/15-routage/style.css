@@ -1,0 +1,9 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 1%;
+    transition: 0.5s;
+}

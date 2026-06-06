@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 70px;
+    background-color: rgb(0, 115, 255);
+    display: flex; 
+    align-items: center;
+    color: aliceblue;
+    padding: 0px 15px;
+    justify-content:space-between; 
+}
+h1,h2,p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+p{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 23px;
+    color: rgba(245, 245, 245, 0.913);
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-right: 50px;
+}
+.btn-inscrire , .btn-connecter{
+    padding: 10px;
+    margin-left: 8px;
+    height: 35px;
+    font-weight: bold;
+    font-family:monospace;
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 8px;
+}
+.Recherche{
+    padding: 5px 30px;
+}
+.input-recherche{
+    width: 700px;
+    height: 25px;
+    padding: 0px 8px;
+}
+

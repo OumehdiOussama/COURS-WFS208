@@ -1,0 +1,109 @@
+/* Styles for ListeElement / Element components
+	 Usage: add className="liste-livres" to the <table> in ListeElement.jsx to scope styles.
+	 Fallback: basic table selectors are included but scoping with .liste-livres is recommended.
+*/
+
+/* Container / table base */
+.liste-livres,
+table.liste-livres {
+	width: 100%;
+	max-width: 980px;
+	margin: 20px auto;
+	border-collapse: collapse;
+	font-family: Inter, 'Segoe UI', Roboto, Arial, sans-serif;
+	color: #111827;
+	background: #ffffff;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+
+
+/* Header */
+.liste-livres thead {
+	background: linear-gradient(90deg,#0f172a,#111827);
+	color: #fff;
+}
+.liste-livres th,
+.liste-livres td {
+	padding: 12px 16px;
+	text-align: left;
+	font-size: 15px;
+}
+.liste-livres th {
+	font-weight: 600;
+	letter-spacing: 0.2px;
+}
+
+/* Rows */
+.liste-livres tbody tr {
+	border-bottom: 1px solid #eef2f7;
+	background: #fff;
+}
+.liste-livres tbody tr:nth-child(even) {
+	background: #fbfdff;
+}
+.liste-livres tbody tr:hover {
+	background: #f1f5f9;
+}
+
+/* Cells */
+.liste-livres td:last-child {
+	text-align: center;
+	width: 140px;
+}
+.liste-livres td .price {
+	font-weight: 700;
+	color: #0b1220;
+}
+
+/* Button (delete) - targets buttons inside the scoped table so you don't need to change markup */
+.liste-livres button,
+table.liste-livres button {
+	display: inline-block;
+	background: #ef4444; /* red */
+	color: #fff;
+	border: 0;
+	padding: 6px 10px;
+	font-size: 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: transform .08s ease, background .12s ease, box-shadow .12s ease;
+}
+.liste-livres button:hover {
+	background: #dc2626;
+	transform: translateY(-1px);
+	box-shadow: 0 6px 18px rgba(220,38,38,0.12);
+}
+.liste-livres button:active {
+	transform: translateY(0);
+}
+.liste-livres button:focus {
+	outline: 3px solid rgba(59,130,246,0.18);
+	outline-offset: 2px;
+}
+
+/* Small screens: allow horizontal scroll instead of complex reflow so markup stays untouched */
+@media (max-width: 640px) {
+	.liste-livres,
+	table.liste-livres {
+		display: block;
+		overflow-x: auto;
+		/*-webkit-overflow-scrolling: touch;*/
+		width: 100%;
+	}
+	.liste-livres thead th,
+	.liste-livres td {
+		white-space: nowrap;
+	}
+}
+
+/* Minor utility */
+.liste-livres .muted {
+	color: #6b7280;
+	font-size: 13px;
+}
+
+/* End of ListeElement styles */
+

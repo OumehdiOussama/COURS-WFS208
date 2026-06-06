@@ -1,0 +1,44 @@
+{
+  "hotels": [
+    { 
+      "IdHotel": "Farah Inn",
+      "Nom_Hotel": "Farah Inn",
+      "Description": "Situé à Ifrane dans la région du Moyen Atlas.",
+      "Ville": "Ifrane",
+      "Images": "Farah Inn.jpg",
+      "Commentaires": ["Trop loin du centre-ville", "Accueil top"],
+      "Like": 90,
+      "Dislike": 5
+    },
+    {
+      "IdHotel": "Palms Garden",
+      "Nom_Hotel": "Palms Garden",
+      "Description": "Hôtel paisible entouré de palmiers, idéal pour se détendre dans le désert.",
+      "Ville": "Erfoud",
+      "Images": "Palms Garden.jpg",
+      "Commentaires": ["Cadre magnifique", "Très calme", "Service excellent"],
+      "Like": 60,
+      "Dislike": 2
+    },
+    {
+      "IdHotel": "Atlas Palace",
+      "Nom_Hotel": "Atlas Palace",
+      "Description": "Hôtel luxueux avec vue sur les montagnes.",
+      "Ville": "Marrakech",
+      "Images": ["atlas1.jpg", "atlas2.jpg"],
+      "Commentaires": ["Très propre", "Personnel professionnel"],
+      "Like": 120,
+      "Dislike": 10
+    },
+    {
+      "IdHotel": "Riad Fes",
+      "Nom_Hotel": "Riad Fes",
+      "Description": "Riad traditionnel au cœur de la médina.",
+      "Ville": "Fès",
+      "Images": "Riad Fes.jpg",
+      "Commentaires": ["Authentique", "Petit-déjeuner excellent"],
+      "Like": 75,
+      "Dislike": 3
+    }
+  ]
+}

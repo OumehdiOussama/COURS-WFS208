@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    margin-bottom: 10px;
+}
+img{
+    height: 65px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+img:hover{
+    cursor: pointer;
+}
+.Titre-1{
+    color: blue;
+    font-size:25px;
+    font-weight: 600;
+}
+.Titre-2{
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 600;
+}

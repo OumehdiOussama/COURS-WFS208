@@ -1,0 +1,16 @@
+.VolsDetails{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.Titre-details{
+    margin: 0 auto;
+    max-width: 400px;
+    width: 90%;
+    background-color: rgb(149, 214, 255);
+    border-radius: 5px;
+    padding: 10px;
+
+}
